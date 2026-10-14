@@ -1,0 +1,19 @@
+# macOS & editor files
+.DS_Store
+*.swp
+*.tmp
+# Sensitive app privacy reports and diagnostics
+*.ndjson
+*.jsonl
+*.log
+privacy-reports/
+reports/
+# Credentials and private configs
+.env
+.env.*
+*.pem
+*.p8
+*token*
+*.mobileconfig
+# Ignore unreviewed Rulify exports by default
+unreviewed/
